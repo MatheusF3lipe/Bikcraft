@@ -23,6 +23,7 @@ p {
 }
 img {
   display: block;
+  max-width: 100%;
 }
 .btn:hover {
   color: #fff;

@@ -10,7 +10,8 @@
   <link rel="stylesheet" href="/CSS/grid.css">
   <link rel="stylesheet" href="/CSS/style.css">
   <link rel="stylesheet" href="/CSS/sobre.css">
-  <link rel="stylesheet" href="/CSS.css">
+  <link rel="stylesheet" href="/CSS/responsivo.css">
+  <script>document.documentElement.classList.add("js");</script>
   <title>Document</title>
 </head>
 
@@ -30,10 +31,10 @@
             <a href="produtos.html">Produtos</a>
           </li>
           <li>
-            <a href="portifoilio">Portifólio</a>
+            <a href="portifoilio.html">Portifólio</a>
           </li>
           <li>
-            <a href="contato">Contato</a>
+            <a href="contato.html">Contato</a>
           </li>
         </ul>
       </nav>
@@ -42,11 +43,11 @@
   <!-- Estruturação das imagens -->
   <section class="introducao-interna interna-sobre">
     <div class="container">
-      <h1>Sobre</h1>
-      <P>Conheça mais sobre o bikcraft</P>
+      <h1 data-anime="400" class="FadeInDown">Sobre</h1>
+      <P data-anime="800">Conheça mais sobre o bikcraft</P>
     </div>
   </section>
-  <section class="missao-sobre container">
+  <section class="missao-sobre container FadeInDown" data-anime="1200">
     <div class="grid-10">
       <h2 class="subtitulo-interno">História, Missão e Visão</h2>
       <p>O verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana. Interesse por todos os detalhes da vida cotidiana.</p>
@@ -66,7 +67,7 @@
     </div>
   </section>
 
-  <section class="qualidade container">
+  <section class="qualidade container FadeInDown" data-anime="1600">
     <h2 class="subtitulo">Qualidade</h2>
     <img src="/Img/bikcraft-2logo.png">
     <ul class="qualidade_lista">
@@ -127,6 +128,8 @@
       </div>
     </div>
   </footer>
+  <script src="/JS/simple-anime.js"></script>
+  <script src="/JS/script.js"></script>
 </body>
 
 </html>

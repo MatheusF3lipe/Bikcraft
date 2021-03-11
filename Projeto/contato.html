@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="/CSS/sobre.css">
   <link rel="stylesheet" href="/CSS/produtos.css">
   <link rel="stylesheet" href="/CSS/contato.css">
+  <script>document.documentElement.classList.add("js");</script>
   <title>Produtos</title>
 </head>
 
@@ -31,10 +32,10 @@
             <a href="produtos.html" class="menu_ativo">Produtos</a>
           </li>
           <li>
-            <a href="portifoilio">Portifólio</a>
+            <a href="portifoilio.html">Portifólio</a>
           </li>
           <li>
-            <a href="contato">Contato</a>
+            <a href="contato.html">Contato</a>
           </li>
         </ul>
       </nav>
@@ -42,14 +43,14 @@
   </header>
   <section class="introducao-interna interno-contato">
     <div class="container">
-      <h1>Contato</h1>
-      <P>Tire suas dúvidas com a gente</P>
+      <h1 data-anime="400" class="FadeInDown">Contato</h1>
+      <P data-anime="800" class="FadeInDown">Tire suas dúvidas com a gente</P>
     </div>
   </section>
   <section class="contato container">
 
-    <form id="" class="form-contato grid-8">
-      <label for="nome">Nome</label>
+    <form id="" class="form-contato grid-8 FadeInDown" data-anime="1200">
+      <label for=" nome">Nome</label>
       <input type="text" id="nome">
       <label for="email">Email</label>
       <input type="text" id="email">
@@ -59,7 +60,7 @@
       <textarea name="mensagem" id="mensagem"></textarea>
       <button type="submit" class="btn btn-preto">Enviar</button>
     </form>
-    <div class="contato_dados" grid-8">
+    <div class="contato_dados grid-8 FadeInDown" data-anime="1600"> >
       <h3>Dados</h3>
       <span>11 5823-4990</span>
       <span>Orçamento@bikcraft.com.br</span>
@@ -72,7 +73,7 @@
         <li><a href="http://twitter.com"><img src="/Img/twitter.svg" alt="" srcset=""></a></li>
       </ul>
   </section>
-  <section class="container mapa">
+  <section class="container mapa FadeInDown" data-anime="2000">
     <a href="http://google.com" target="_blank" class="grid-16"><img src="/Img/mapa.png" alt="" srcset=""></a>
   </section>
   <section class="quebra">
@@ -115,3 +116,8 @@
       </div>
     </div>
   </footer>
+  <script src="/JS/simple-anime.js"></script>
+  <script src="/JS/script.js"></script>
+</body>
+
+</html>

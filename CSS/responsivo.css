@@ -1,5 +1,48 @@
 /*Estilo para tablets*/
 @media only screen and (min-width: 788px) and (max-width: 979px) {
+  .qualidade:after {
+    right: 166px;
+  }
+  .qualidade_lista li {
+    padding: 0 10px;
+  }
+  footer_redes ul li a {
+    border: 3px solid #fec63e;
+    display: block;
+    padding: 5px;
+  }
+  footer_redes ul li a img {
+    width: 26px;
+    height: 26px;
+  }
+  /*produtos*/
+  .produto-item h2 {
+    top: -150px;
+    margin-bottom: -56px;
+  }
+  .produto_icone {
+    padding: 41px 0;
+  }
+  .produto-info p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 20px 30px;
+    height: 122px;
+  }
+  .produto-info ul li {
+    background: #fec63e;
+    font-size: 18px;
+    float: left;
+    width: 181px;
+    height: 50px;
+    text-transform: uppercase;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 15px;
+    border: 1px solid #000;
+  }
+  .
 }
 
 /*Estilo para celular*/
@@ -29,6 +72,51 @@
   /*Introdução*/
   .introducao {
     margin-top: 0;
-    padding-top: 20px;
+    padding-top: 40px;
   }
+  .introducao h1 {
+    font-size: 36px;
+  }
+
+  .call {
+    padding-top: 40px;
+  }
+  .qualidade:after {
+    display: none;
+  }
+  .introducao-interna {
+    margin-top: 0px;
+  }
+  .missao-sobre p {
+    font-size: 14px;
+    line-height: 20px;
+    padding-right: 0;
+  }
+  .missao-sobre ul li {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .produto-item h2 {
+    top: -100px;
+    margin-bottom: -68px;
+  }
+  .produto_icone {
+    padding: 41px 0;
+  }
+  .produto-info p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 20px 30px;
+    height: auto;
+  }
+  .produto-info ul li {
+    
+    width: 150px;
+    height: 50px;
+    padding-top: 14px;
+    line-height: 20px;
+    border: 1px solid #000;
+  }
+
 }

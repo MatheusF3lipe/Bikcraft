@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="/CSS/sobre.css">
   <link rel="stylesheet" href="/CSS/produtos.css">
   <link rel="stylesheet" href="/CSS/responsivo.css">
+  <script>document.documentElement.classList.add("js");</script>
   <title>Produtos</title>
 </head>
 
@@ -31,10 +32,10 @@
             <a href="produtos.html" class="menu_ativo">Produtos</a>
           </li>
           <li>
-            <a href="portifoilio">Portifólio</a>
+            <a href="portifolio.html">Portifólio</a>
           </li>
           <li>
-            <a href="contato">Contato</a>
+            <a href="contato.html">Contato</a>
           </li>
         </ul>
       </nav>
@@ -43,11 +44,11 @@
   <!-- Estruturação das imagens -->
   <section class="introducao-interna interno-produtos">
     <div class="container">
-      <h1>Produtos</h1>
-      <P>Conheça mais sobre os nossos produtos.</P>
+      <h1 data-anime="400" class="FadeInDown">Produtos</h1>
+      <P data-anime="800" class="FadeInDown">Conheça mais sobre os nossos produtos.</P>
     </div>
   </section>
-  <section class="container produto-item">
+  <section class="container produto-item FadeInDown" data-anime="1200">
     <div class="grid-11">
       <img src="../Img/foto-titulo-retro.png" alt="" srcset="">
       <h2>Passeio</h2>
@@ -184,3 +185,8 @@
       </div>
     </div>
   </footer>
+  <script src="/JS/simple-anime.js"></script>
+  <script src="/JS/script.js"></script>
+</body>
+
+</html>

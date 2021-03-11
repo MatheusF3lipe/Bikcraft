@@ -139,3 +139,10 @@
 .orcamento_dados p {
   margin: 8px 0;
 }
+.form{
+  padding-right: 0px;
+}
+.orcamento_dados ul{
+  padding-right: 60px;
+}
+}

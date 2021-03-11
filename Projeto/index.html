@@ -10,10 +10,14 @@
   <link rel="stylesheet" href="/CSS/grid.css">
   <link rel="stylesheet" href="/CSS/style.css">
   <link rel="stylesheet" href="/CSS/responsivo.css">
+  <script>document.documentElement.classList.add("js");</script>
+
+
   <title>Document</title>
 </head>
 
 <body>
+
   <!--Topo-->
   <header class="header">
     <div class="container">
@@ -29,10 +33,10 @@
             <a href="produtos.html"> Produtos</a>
           </li>
           <li>
-            <a href="portifoilio">Portifólio</a>
+            <a href="portifoilio.html">Portifólio</a>
           </li>
           <li>
-            <a href="contato">Contato</a>
+            <a href="contato.html">Contato</a>
           </li>
         </ul>
       </nav>
@@ -41,15 +45,15 @@
   <!-- Estruturação das imagens -->
   <section class="introducao">
     <div class="container">
-      <h1>Bicicletas Feitas a Mão</h1>
-      <blockquote class="quote-externo">
+      <h1 data-anime="400" class="FadeInDown">Bicicletas Feitas a Mão</h1>
+      <blockquote class="quote-externo FadeInDown" data-anime="800">
         <p>"Não tenha nada em sua casa que você não considere útil ou acredita ser bonito"</p>
         <cite>WILLIAM MORRIS</cite>
       </blockquote>
-      <a href="produtos.html" class="btn">Orçamento</a>
+      <a href="produtos.html" class="btn" data-anime="1200">Orçamento</a>
     </div>
   </section>
-  <section class="produtos container">
+  <section class="produtos container FadeInDown" data-anime="1600">
     <h2 class="subtitulo">Produtos</h2>
 
     <ul class="produtos_lista">
@@ -164,6 +168,9 @@
       </div>
     </div>
   </footer>
+
+  <script src="/JS/simple-anime.js"></script>
+  <script src="/JS/script.js"></script>
 </body>
 
 </html>

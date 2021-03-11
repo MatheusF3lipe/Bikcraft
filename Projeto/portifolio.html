@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="/CSS/sobre.css">
   <link rel="stylesheet" href="/CSS/produtos.css">
   <link rel="stylesheet" href="/CSS/portifolio.css">
+  <script>document.documentElement.classList.add("js");</script>
   <title>Portifólio</title>
 </head>
 
@@ -31,10 +32,10 @@
             <a href="produtos.html">Produtos</a>
           </li>
           <li>
-            <a href="portifoilio" class="menu_ativo">Portifólio</a>
+            <a href="portifoilio.html" class="menu_ativo">Portifólio</a>
           </li>
           <li>
-            <a href="contato">Contato</a>
+            <a href="contato.html">Contato</a>
           </li>
         </ul>
       </nav>
@@ -43,25 +44,38 @@
   <!-- Estruturação das imagens -->
   <section class="introducao-interna interno-portfolio">
     <div class="container">
-      <h1>Portifólio</h1>
-      <P>conheça os projetos que amamos mostrar.</P>
+      <h1 data-anime="400" class="FadeInDown">Portifólio</h1>
+      <P data-anime="800" class="FadeInDown">conheça os projetos que amamos mostrar.</P>
     </div>
   </section>
 
-  <section class="container">
+  <section class="container" data-slide="quote" data-anime="1200">
     <blockquote class="quote-cliente">
       <p>"No mundo atual, a continua expansão de nossa
         atividade cumpre um papel essencial na formulação da
         gestão inovadora da qual fazemos parte."</p>
       <cite>Barbara Moss</cite>
     </blockquote>
+    <blockquote class="quote-cliente">
+      <p>"Nada melhor que um rolê pelo capão redondo com a minha bike ela.Essa e a minha companheira fiel sempre que preciso ela está comigo gosto muito dela"</p>
+      <cite>Mano Brown</cite>
+    </blockquote>
+    <blockquote class="quote-cliente">
+      <p>"No mundo atual, colaborar com a natureza é tudo, dar um rolê de bike ajuda não só sua saúde mas também ajuda e colabora a preservar o meio ambiente."</p>
+      <cite>Jhony Rato</cite>
+    </blockquote>
+
   </section>
   <section class="portifolio">
-    <div class="container">
-      <h2 class="subtitulo">Portifólio</h2>
+    <div class="container" data-slide="portfolio">
       <ul class="portifolio_lista">
         <li class="grid-8"><img src="/Img/foto1.png" alt=""></li>
         <li class="grid-8"><img src="/Img/foto2.png" alt=""></li>
+        <li class="grid-16"><img src="/Img/foto3.png" alt=""></li>
+      </ul>
+      <ul class="portifolio_lista">
+        <li class="grid-8"><img src="/Img/foto2.png" alt=""></li>
+        <li class="grid-8"><img src="/Img/foto1.png" alt=""></li>
         <li class="grid-16"><img src="/Img/foto3.png" alt=""></li>
       </ul>
     </div>
@@ -107,3 +121,9 @@
       </div>
     </div>
   </footer>
+  <script src="/JS/simple-anime.js"></script>
+  <script src="/JS/simple-slide.js"></script>
+  <script src="/JS/script.js"></script>
+</body>
+
+</html>
